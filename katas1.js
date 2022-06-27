@@ -23,7 +23,7 @@ console.log(evensToTwenty());
  function oddsToTwenty() {
 
   let meuRetorno = [];
-  for (let i = 1; i <= 20; i= i+2) {
+  for (let i = 1; i <= 20; i= i+=2) {
       meuRetorno.push(i)
   }
   return meuRetorno;
@@ -78,7 +78,7 @@ console.log(evenNumbersBackwards())
  function oddNumbersBackwards() {
      
   let meuRetorno = [];
-  for (let i = 20 - 1; i >= 0; i-= 2){
+  for (let i = 19; i > 0; i -= 2){
     meuRetorno.push(i)
   } 
   return meuRetorno
